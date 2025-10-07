@@ -1,0 +1,8 @@
+# 虚拟环境与缓存
+tests/venv/
+
+# --- Local data: SQLite
+data/
+*.db
+*.sqlite
+*.sqlite3

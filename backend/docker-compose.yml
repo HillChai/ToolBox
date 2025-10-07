@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app123
+      POSTGRES_DB: appdb
+    ports: ["5432:5432"]
